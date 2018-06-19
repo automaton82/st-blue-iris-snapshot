@@ -9,8 +9,8 @@ metadata {
     preferences {
         input("BlueIrisIP", "string", title:"Blue Iris IP Address", description: "Enter Blue Iris's IP Address",required: true, displayDuringSetup: true)
         input("BlueIrisPort", "string", title:"Blue Iris Port", description: "Enter Blue Iris's Port", defaultValue: 80 , required: true, displayDuringSetup: true)
-        input("BlueIrisUser", "string", title:"Camera User", description: "Enter Blue Iris's username", required: false, displayDuringSetup: true)
-        input("BlueIrisPassword", "string", title:"Camera Password", description: "Enter Blue Iris's password", required: false, displayDuringSetup: true)
+        input("BlueIrisUser", "string", title:"Blur Iris User", description: "Enter Blue Iris's username", required: false, displayDuringSetup: true)
+        input("BlueIrisPassword", "string", title:"Blue Iris Password", description: "Enter Blue Iris's password", required: false, displayDuringSetup: true)
         input("ImageQuality", "string", title:"Image Quality", description: "Enter the image quality (0-100)", defaultValue: 80, required: false, displayDuringSetup: true)
         input("ImageScale", "string", title:"Image Scale", description: "Enter the image scale size (0-100)", defaultValue: 80, required: false, displayDuringSetup: true)
 	}
